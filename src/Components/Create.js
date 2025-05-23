@@ -43,6 +43,7 @@ const Create = () => {
             type="text"
             placeholder="Enter blog title"
             onChange={handleChange}
+            required
             value={formData.title}
           />
         </Form.Group>
@@ -54,6 +55,7 @@ const Create = () => {
             type="text"
             placeholder="Enter author name"
             onChange={handleChange}
+            required
             value={formData.author}
           />
         </Form.Group>
@@ -66,6 +68,7 @@ const Create = () => {
             rows={4}
             placeholder="Enter blog content"
             onChange={handleChange}
+            required
             value={formData.body}
           />
         </Form.Group>
